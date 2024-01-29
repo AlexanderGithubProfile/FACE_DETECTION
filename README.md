@@ -2,16 +2,16 @@
 
 ## Описание проекта
 Face Blurring - это инструмент для обработки видео, написанный на Python с использованием библиотеки PyTorch и OpenCV. Проект использует предварительно обученную модель MTCNN для обнаружения лиц в видео и применяет эффект блюра к найденным лицам.
-
-## Используемые технологии
 - [PyTorch](https://pytorch.org/): Библиотека для глубокого обучения, используемая для работы с нейронной сетью MTCNN.
 - [OpenCV](https://opencv.org/): Библиотека для компьютерного зрения, применяемая для обработки видео и реализации эффекта блюра.
 - [facenet-pytorch](https://github.com/timesler/facenet-pytorch): Библиотека для обнаружения лиц и точек на лице, включая предварительно обученную модель MTCNN.
 
 ## Установка
-1. Установите зависимости: `pip install torch opencv-python torchvision facenet-pytorch`
-2. Клонируйте репозиторий: `git clone https://github.com/AlexanderGithubProfile/face_bluring.git`
-3. Перейдите в директорию проекта: `cd face_bluring`
+1. Клонируйте репозиторий:
+```bash
+git clone https://github.com:AlexanderGithubProfile/FACE_DETECTION.git
+```
+3. Перейдите в директорию проекта: `cd face_detection`
 
 ## Запуск
 1. Замените переменную `video_path` на путь к вашему видео в коде.
