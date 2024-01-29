@@ -11,7 +11,6 @@ Face Blurring - это инструмент для обработки видео
 ```bash
 git clone https://github.com:AlexanderGithubProfile/FACE_DETECTION.git
 ```
-3. Перейдите в директорию проекта: `cd face_detection`
 
 ## Запуск
 1. Замените переменную `video_path` на путь к вашему видео в коде.
